@@ -10,5 +10,5 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sOcKettt:
                 ReceiveData = connECtion.recv(1024)
                 if not ReceiveData:
                     break
-                print('data : {}, addr: {}'.format(ReceiveData, FROMaddr))
+                print(' data : {}, addr: {}'.format(ReceiveData, FROMaddr))
                 #connECtion.sendall(b'received')
